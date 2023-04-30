@@ -1,0 +1,29 @@
+
+<!doctype html>
+
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>Mohit Pachauri | Resume </title>
+    
+    <meta name="description" content="Mohit's Resume" />
+    <meta name="author" content="Mohit Pachauri" />
+    <script>
+        function resizeIframe(obj) {
+            obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+            obj.style.height = "100vh";
+        }
+    </script>
+
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+</head>
+
+
+<body>
+<iframe src="pachauri_mohit_resume.pdf" width="100%" frameborder="0" scrolling="no" onload="resizeIframe(this)"/>
+
+</body>
+</html>
